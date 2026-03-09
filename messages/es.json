@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "about": "Sobre Mí",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Bienvenido a Nuestro Blog",
+    "subtitle": "Descubre artículos perspicaces sobre tecnología, diseño y viajes",
+    "cta": "Explorar Artículos"
+  },
+  "blog": {
+    "title": "Todos los Artículos",
+    "readMore": "Leer Más",
+    "backToBlog": "Volver al Blog",
+    "relatedPosts": "Publicaciones Relacionadas",
+    "by": "Por",
+    "categories": {
+      "all": "Todos",
+      "technology": "Tecnología",
+      "design": "Diseño",
+      "travel": "Viajes"
+    },
+    "latestPosts": "Últimas Publicaciones"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "bio": "Soy un desarrollador y escritor apasionado que ama compartir conocimientos sobre tecnología, diseño y experiencias de viaje. Con más de 5 años de experiencia en desarrollo web, creo contenido que ayuda a otros a aprender y crecer.",
+    "techStack": "Stack Tecnológico",
+    "followMe": "Sígueme"
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "¿Tienes una pregunta o quieres trabajar juntos? ¡Envíame un mensaje!",
+    "name": "Tu Nombre",
+    "email": "Tu Correo",
+    "message": "Tu Mensaje",
+    "send": "Enviar Mensaje",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Por favor completa todos los campos correctamente.",
+    "namePlaceholder": "Juan Pérez",
+    "emailPlaceholder": "juan@ejemplo.com",
+    "messagePlaceholder": "Hola, me gustaría..."
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados.",
+    "madeWith": "Hecho con",
+    "by": "por"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "toggle": "Cambiar tema"
+  },
+  "language": {
+    "select": "Seleccionar Idioma",
+    "en": "Inglés",
+    "hi": "Hindi",
+    "es": "Español",
+    "fr": "Francés"
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "backHome": "Volver al Inicio"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bienvenue sur Notre Blog",
+    "subtitle": "Découvrez des articles perspicaces sur la technologie, le design et les voyages",
+    "cta": "Explorer les Articles"
+  },
+  "blog": {
+    "title": "Tous les Articles",
+    "readMore": "Lire Plus",
+    "backToBlog": "Retour au Blog",
+    "relatedPosts": "Articles Connexes",
+    "by": "Par",
+    "categories": {
+      "all": "Tous",
+      "technology": "Technologie",
+      "design": "Design",
+      "travel": "Voyage"
+    },
+    "latestPosts": "Derniers Articles"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "bio": "Je suis un développeur et écrivain passionné qui aime partager ses connaissances sur la technologie, le design et les expériences de voyage. Avec plus de 5 ans d'expérience en développement web, je crée du contenu qui aide les autres à apprendre et à grandir.",
+    "techStack": "Stack Technique",
+    "followMe": "Suivez-moi"
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "subtitle": "Vous avez une question ou souhaitez travailler ensemble ? Envoyez-moi un message !",
+    "name": "Votre Nom",
+    "email": "Votre Email",
+    "message": "Votre Message",
+    "send": "Envoyer le Message",
+    "success": "Message envoyé avec succès !",
+    "error": "Veuillez remplir tous les champs correctement.",
+    "namePlaceholder": "Jean Dupont",
+    "emailPlaceholder": "jean@exemple.com",
+    "messagePlaceholder": "Bonjour, je souhaiterais..."
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "madeWith": "Fait avec",
+    "by": "par"
+  },
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "toggle": "Changer de thème"
+  },
+  "language": {
+    "select": "Choisir la Langue",
+    "en": "Anglais",
+    "hi": "Hindi",
+    "es": "Espagnol",
+    "fr": "Français"
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'Accueil"
+  }
+}
