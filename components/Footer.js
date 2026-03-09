@@ -11,9 +11,9 @@ export default function Footer({ locale }) {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/VinayKumar42', label: 'GitHub' },
+    { icon: Twitter, href: 'https://twitter.com/vinay9149', label: 'Twitter' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/vinaykumar42', label: 'LinkedIn' },
   ];
 
   const footerLinks = [
@@ -89,7 +89,7 @@ export default function Footer({ locale }) {
             © {currentYear} BlogHub. {t('copyright')}
           </p>
           <p className="text-slate-600 dark:text-slate-400 text-sm flex items-center">
-            {t('madeWith')} <Heart className="w-4 h-4 mx-1 text-red-500 fill-red-500" /> {t('by')} BlogHub
+            {t('madeWith')} <Heart className="w-4 h-4 mx-1 text-red-500 fill-red-500" /> {t('by')} Vinay Kumar
           </p>
         </div>
       </div>

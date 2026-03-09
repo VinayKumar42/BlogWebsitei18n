@@ -1,10 +1,11 @@
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import BlogPostContent from './BlogPostContent';
 import { blogPosts, getBlogPost } from '@/data/blog';
 
+const locales = ['en', 'hi', 'es', 'fr'];
+
 export async function generateStaticParams() {
-  const locales = ['en', 'hi', 'es', 'fr'];
   const params = [];
 
   for (const locale of locales) {
@@ -37,6 +38,10 @@ export async function generateMetadata({ params }) {
 
 export default async function BlogPostPage({ params }) {
   const { locale, slug } = await params;
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
   const post = getBlogPost(slug);
 
   if (!post) {
